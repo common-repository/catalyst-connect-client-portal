@@ -1,0 +1,892 @@
+/*Common CSS*/
+label{float: left;}
+.ccgclient_portal{width: 100% !important;max-width: 100% !important;}
+.ccgclientportal-content{width: 100% !important;max-width: 100% !important;}
+.float-left{float: left;}
+.f-r, .float-right{float: right;}
+.pd-0{padding: 0px !important;}
+.pd-r-0{padding-right: 0px !important;}
+.pd-l-0{padding-left: 0px !important;}
+.pd-b-10{padding-bottom: 10px !important;}
+#ccgclientportal-content .showFull,
+#ccgclientportal-content .showLess{color: #228be6}
+#portal-cotenier input,#portal-cotenier input[type="email"], 
+#portal-cotenier input[type="number"], 
+#portal-cotenier input[type="password"], 
+#portal-cotenier input[type="text"], 
+#portal-cotenier select, 
+#portal-cotenier textarea {
+    color: #5a5a5a;
+    border-radius: 8px !important;
+
+}
+#portal-cotenier input{
+    border-radius: 8px !important;
+}
+#ccgclientportal-content input[type=checkbox].form-control{
+  height: 36px;
+  width: auto;
+  cursor: pointer;
+}
+#portal-cotenier .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#ccgclient-portal th {
+    text-align: left;
+}
+#ccgclient-portal button, 
+#ccgclient-portal input, 
+#ccgclient-portal optgroup, 
+#ccgclient-portal select, 
+#ccgclient-portal textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+
+.clr{clear: both;width: 100%}
+#ccgclient-portal hr{margin: 15px 0px;}
+.modal-backdrop.fade.in{opacity: .5;}
+#ccgclientportal-content #portal-cotenier label,
+#ccgclient-portal #portal-cotenier{
+    font-size: 14px;
+}
+
+#ccgclientportal-content #portal-cotenier .fieldLabel,
+#ccgclientportal-content #portal-cotenier .fieldData{
+    float: left;
+    width: 100%;
+}
+
+#ccgclientportal-content .dataTables_length select,
+#ccgclientportal-content .dataTables_filter input{
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 0px 15px;
+    height: 36px;    
+}
+#ccgclientportal-content .dataTables_filter input{
+    margin-left: 8px;
+    /*width: calc( 100% - 80px );*/
+    float: right;
+}
+#ccgclientportal-content .dataTables_wrapper table.datatable td.dataTables_empty {
+    text-align: center;
+}
+#ccgclientportal-content .dataTables_filter label{
+    line-height: 34px;
+}
+
+.modal-body .form-control,
+#ccgclientportal-content .form-control{
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 8px 15px;
+    height: 36px;
+}
+#ccgclient-portal textarea.form-control{    
+    height: 60px;
+    transition: .3s all ease;
+}
+#ccgclient-portal textarea.form-control:active,
+#ccgclient-portal textarea.form-control:focus,
+#ccgclient-portal textarea.activetextarea{
+    /*min-height: 120px;*/
+    height: 100px;
+    transition: .3s all ease;
+}
+
+#ccgclient-portal .control-label{
+    cursor: default;
+    margin-top: 5px;
+}
+
+#ccgclient-portal .section-title{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+}
+#ccgclient-portal .detail-con{    
+    /*border-bottom: 1px solid #f5f5f5;*/
+    margin-bottom: 0px;
+    padding: 12px;
+}
+
+#ccgclient-portal .table .btn{padding: 0px 12px;}
+#portal-cotenier table.table.table-hover{ 
+
+}  
+
+#portal-cotenier table.table.table-hover {
+    border: none;
+    padding: 5px;
+}
+#portal-cotenier table.table.table-hover tr {
+    background: transparent;
+}
+#ccgclientportal-content .headtable {
+    border: 4px solid #9ec1f100;
+    box-shadow: 0px 5px 15px -4px #9ec1f1b0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#portal-cotenier table.table.table-hover thead th:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+#portal-cotenier table.table.table-hover thead th:last-child{
+    border-radius: 0px 10px 10px 0px;
+} 
+/*#portal-cotenier table.table.table-hover tbody{    
+    border: solid 1px #ccc;
+}*/
+
+#portal-cotenier table.table.table-hover td{
+    color: rgb(0, 0, 0);
+    border-top: 0px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 0px;
+    border-right: 0px;
+    text-align: left;
+    padding: 15px;
+    line-height: 30px;
+}
+#portal-cotenier table.table.table-hover thead tr{
+    background: #FFF;
+}
+#portal-cotenier table.table.table-hover thead tr th{
+    /*background: #337ab7;*/
+    color: #FFF;
+    font-size: 16px; 
+    padding: 15px;
+    text-transform: capitalize;
+    letter-spacing: normal; 
+    border: none;
+}
+#portal-cotenier table.table.table-hover tr{
+    /*background: #fff;*/
+}
+
+#portal-cotenier form.upload-file input[type="file"],
+#portal-cotenier form.upload-file button{
+    margin-top: 3px;
+}
+#ccgclient-portal .btn{border: none;border-radius: 2px;}
+#ccgclient-portal .portal-header{
+    margin-bottom: 20px;
+}
+#ccgclient-portal .portal-header h4{
+    float: left;
+    margin: 0px;
+    line-height: 30px;
+}
+#ccgclient-portal .portal-header .portal-header-right{
+    float: right;
+}
+
+#ccgclient-portal .portal-header .portal-header-left{
+    float: left;
+}
+
+
+
+
+/*Left Bar*/
+#ccgclient-portal .ccg-mobile-menu {
+    display: none;
+    /*background: #2871d1;*/
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #FFF;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+#ccgclient-portal .ccg-mobile-menu .ccgportal-navbar-toggler{
+    font-size: 20px;
+    float: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+#ccgclient-portal #ccp-nav-accordion li a span, #ccgclient-portal #ccp-nav-accordion li .ccp-dropdown-menu a{
+    font-size: 14px;
+    font-weight: 500;
+}
+#ccgclient-portal ul li.account-manager{
+    padding: 20px !important;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    width: 80%;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+}    
+#ccgclient-portal ul li.account-manager .account-name{
+    font-weight: bold;
+}
+#ccgclient-portal ul li img.profile-image-ac{    
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+/*Top Bar*/
+#ccgclient-portal .top-right-menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+}
+
+#ccgclient-portal .top-right-menu li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+}
+#ccgclient-portal .top-right-menu li{
+    float: left;
+    margin: 0;
+}
+
+#ccgclient-portal .top-right-menu li.logout a svg{
+    height: 14px;
+    width: 14px;
+    margin-top: 4px;
+}
+#ccgclient-portal .top-right-menu li.logout a .ccgp-menu-i{
+    fill: #ffffff;
+}
+
+#ccgclient-portal #ccp-nav-accordion li a svg{
+    height: 14px;
+    width: 14px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+
+/*Dashboard*/
+#ccgclient-portal .dashboard-page .dashboard-banner{
+    margin-bottom: 30px;
+}
+#ccgclient-portal .dashboard-page .dashboard-banner img{
+    border: none;
+    border-radius: 5px;
+    max-height: 400px;
+    width: 100%;
+}
+
+#ccgclient-portal .dashboard-page .col-md-6,
+#ccgclient-portal .dashboard-page .col-md-12{
+    margin-bottom: 30px;
+} 
+
+#ccgclient-portal .dashboard-half{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    padding: 30px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    height: 300px;
+}
+#ccgclient-portal .dashboard-half.col12{
+    height: 500px;
+}
+#ccgclient-portal .dashboard-half .dh-header{
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+#ccgclient-portal .dashboard-half .dh-header .icon{
+    margin-right: 15px;    
+}
+#ccgclient-portal .dashboard-half .dh-content{
+    height: 190px;
+    overflow: auto;
+}
+#ccgclient-portal .dashboard-half.col12 .dh-content{
+    height: 390px;
+}
+#ccgclient-portal .dashboard-half .dh-content span{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    border-bottom: solid 1px #ccc;
+}
+#ccgclient-portal .dashboard-half.Quick-Link .dh-content span a{
+    color: #5a5a5a;
+    cursor: pointer;
+    text-decoration: none;
+}
+#ccgclient-portal .dashboard-half.Quick-Link .dh-content span a:hover{
+    color: #2871d1
+}
+#ccgclient-portal .dashboard-half.video-sec iframe{
+    max-width: 100%;
+    width: 100%;    
+    height: 170px;    
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+}
+#ccgclient-portal .dashboard-half.video-sec.col12 iframe{
+    height: 375px;
+}
+
+#ccgclient-portal .dashboard-half.ifem-sec.col12{
+    height: 500px;
+}
+#ccgclient-portal .dashboard-half.ifem-sec.col12 .dh-content{
+    height: 390px;
+}
+#ccgclient-portal .dashboard-half.ifem-sec .dh-content iframe{
+    max-width: 100%;
+    width: 100%;   
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+}
+/*scroll CSS*/
+/*/ width /*/
+#ccgclient-portal .dashboard-half .dh-content::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+/*/ Track /*/
+#ccgclient-portal .dashboard-half .dh-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+} 
+/*/ Handle /*/
+#ccgclient-portal .dashboard-half .dh-content::-webkit-scrollbar-thumb {
+  /*background: #2871d1; */
+  border-radius: 10px;
+}
+/*scroll CSS End*/
+
+#ccgclient-portal .dashboard-page .col-md-4{
+    min-width: 263px;
+    margin-bottom: 30px;
+}   
+#ccgclient-portal .dashboard-page a{
+    text-decoration: none;
+}
+#ccgclient-portal .dashboard-page a:hover{
+    text-decoration: none;
+}
+#ccgclient-portal .dashboard-box{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    padding: 40px 33px;
+    border-radius: 5px;
+    font-size: 24px;
+    background: #FFF;
+}
+#ccgclient-portal .dashboard-box font{
+    line-height: 60px;
+    color: #000;
+}
+#ccgclient-portal .dashboard-box i{
+    font-size: 60px;
+    color: #228be6;
+    float: left;
+    margin-right: 20px;
+}
+#ccgclient-portal .dashboard-video iframe{
+    min-height: 600px;
+    padding: 15px;
+    width: 100%;
+    min-width: 300px;
+    border: none;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+}
+
+
+/*Documents*/
+#portal-cotenier .documents-page{
+    /*padding: 30px;*/
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 300px;
+    overflow: auto;
+    background: #FFF;
+}
+#portal-cotenier .documents-page .documents-list{
+    padding: 10px 0px;margin: 0px;
+}
+#portal-cotenier .documents-page .document-item{
+    background-color: #F8f8f8;padding: 15px;margin: 5px 0px;border-radius: 5px;
+}
+#portal-cotenier .documents-page .document-item a.btn{
+    float: right;margin: 9px 8px;
+}
+#portal-cotenier .documents-page i{
+    font-size: 50px; color: #228be6; float: left;
+}
+#portal-cotenier .documents-page .file-name{
+    margin-left: 15px;
+    float: left;
+    line-height: 50px;
+    font-size: 18px;
+}
+#portal-cotenier .documents-page .file-size{
+    float: right; line-height: 45px; font-size: 18px;
+}
+
+#ccgclient-portal .documents-page .portal-header h4{
+    margin: 3px 0px;
+    float: left;
+}
+#ccgclient-portal .documents-page .portal-header .file-upload-form{
+    float: right;
+    line-height: 26px;
+}
+#ccgclient-portal .documents-page .portal-header .file-upload-form font{
+    float: left;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+#ccgclient-portal .documents-page .portal-header .file-upload-form form.upload-file{
+    float: left;
+}
+#ccgclient-portal .documents-page .portal-header .file-upload-form form.upload-file button{
+    float: left;
+    padding: 5px 15px;
+    border-radius: 2px;
+}
+
+
+/*Profile*/
+#portal-cotenier .profile-page{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    overflow: auto;
+    background: #FFF;
+}
+#portal-cotenier .profile-page ul.ccg-nav-tabs{
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+
+/*Page Body*/
+#portal-cotenier .page-body{
+    /*box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);*/
+    padding: 20px 0px;
+    border-radius: 5px;
+    min-width: 300px;
+    overflow: auto;
+    box-shadow: none;
+    background: rgb(255, 255, 255);
+}
+#portal-cotenier .page-body .module-list {
+    margin: 0px; min-width: 650px;
+}
+#portal-cotenier .page-body .module-list td{
+    padding: 15px;
+}
+#portal-cotenier .page-body .module-list th{
+    font-size: 16px; padding: 0px 15px 10px;
+}
+
+/*Contacts*/
+#portal-cotenier .contacts-page{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 300px;
+    overflow: auto;
+    background: #FFF;
+}
+#portal-cotenier .contacts-page .contacts-list {
+    margin: 0px; min-width: 650px;
+}
+#portal-cotenier .contacts-page .contacts-list td{
+    padding: 15px;
+}
+
+
+/*Deals*/
+#portal-cotenier .deals-page{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;    
+    min-width: 300px;
+    overflow: auto;
+    background: #FFF;
+}
+#portal-cotenier .deals-page .deals-list {
+    margin: 0px;
+}
+#portal-cotenier .deals-page .deals-list td{
+    padding: 15px;
+}
+#portal-cotenier .deals-page .deals-list th{
+    font-size: 16px; padding: 0px 15px 10px;
+}
+
+
+
+/*Billing*/
+td span.status{
+    padding: 1px 7px;
+    color: #FFF;
+    border-radius: 5px;
+    background: #ccc;
+}
+td span.overdue{
+    background: #f59d00;
+}
+td span.paid{
+    background: #1fcd6d;
+}
+td span.sent{
+    background: #268ddd;
+}
+td span.open{
+    background: #268ddd;
+}
+td span.draft{
+    background: #94a5a6;
+}
+td span.void{
+    background: #474747;
+}
+td span.status.accepted{
+    background: #1aaf5d;
+}
+td span.status.declined{
+    background: #f59d00;
+}
+
+
+/*Invoice*/
+#portal-cotenier .invoice-page{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;    
+    min-width: 300px;
+    overflow: auto;
+    background: #FFF;
+}
+#portal-cotenier .invoice-page .invoice-list {
+    margin: 0px;min-width: 650px;
+}
+#portal-cotenier .invoice-page .invoice-list td{
+    padding: 15px;
+}
+#portal-cotenier .invoice-page .invoice-list th{
+    font-size: 16px;padding: 0px 15px 10px;
+}
+
+/*Invoice Details*/
+#portal-cotenier .invoice-page .details-container table{
+    border-color: #000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 0px;
+}
+.invoice-page .details-container{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    min-width: 600px;
+}
+.ribbon-wrapper-new {
+    width: 100px;height: 100px;overflow: hidden;
+}
+.ribbon-new {
+    font-size: 14px;
+    text-align: center;
+    transform: rotate(313deg);
+    -webkit-transform: rotate(313deg);
+    -moz-transform: rotate(313deg);
+    -ms-transform: rotate(313deg);
+    -o-transform: rotate(313deg);
+    position: relative;
+    padding: 6px 0;
+    left: -50px;
+    top: 15px;
+    width: 155px;
+    color: #fff;
+    background: #94a5a6;
+    border-color: #94a5a6;
+}
+.ribbon-new.sent {
+    background-color: #268ddd;border-color: #1c72b4;
+}
+.ribbon-new.paid {
+    background-color: #1fcd6d;border-color: #18a155;
+}
+
+.ribbon-new.overdue {
+    background-color: #f59d00;border-color: #c27c00;
+}
+
+.ribbon-new.void {
+    background-color: #474747;border-color: #ffffff;
+}
+.ribbon-new.accepted {
+    background-color: #1aaf5d;
+    border-color: #138345;
+}
+.ribbon-new.declined {
+    background-color: #f59d00;
+    border-color: #c27c00;
+}
+
+
+
+/*New Style*/
+.ccgclient_portal {
+    margin: 0 auto;
+    padding: 3% 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #fff;
+}
+#ccgclient-portal .bodyContent {
+    float: left;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+.iconLeftmenu {
+    width: 25px;
+    margin-top: -5px;
+    display: inline-flex;
+}
+#ccgclientportal-content .top-Left {
+    float: left;
+    padding: 14px;
+}
+#ccgclientportal-content .headTitle {
+    padding-left: 25px;
+    font-weight: 700;
+    color: #2f558f;
+}
+
+#ccgclientportal-content .mr-l-0{
+    margin-left: 0px;
+}
+#ccgclientportal-content .mr-t-0{
+    margin-top: 0px;
+}
+
+#ccgclientportal-content .newtabSection {
+    box-shadow: 0px 3px 14px -5px rgba(40, 113, 209, 0.34);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 10px;
+}
+
+
+#ccgclient-portal .btn.viewButton, #ccgclient-portal .btn.editButton, #ccgclient-portal .btn.deleteButton{
+    text-decoration: underline;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0px 12px !important;
+}
+
+.brd-radius-with-shdw{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
+#ccgclientportal-content #portal-cotenier .btn.btn-primary {
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+#ccgclientportal-content td {
+    font-size: 14px;
+}
+.fortrun {
+    position: relative;
+    float: left;
+    color: #999;
+    margin-left: 12px;
+    margin-bottom: -25px;
+    margin-top: 11px;
+}
+
+.ArrowTable {
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    border-radius: 6px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #2871D1;
+    background: #2871D1;
+    /*border-radius: 5px;*/
+    padding: 0.5em 1em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0;
+    margin: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous .ArrowTable{
+    border-radius: 12px 0px 0px 12px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next .ArrowTable{
+    border-radius: 0px 12px 12px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+    /*Dashboard*/
+    #ccgclient-portal .dashboard-page .col-md-4{    min-width: 245px;}
+    #ccgclient-portal .dashboard-box{padding: 35px 35px;}
+    #ccgclient-portal .dashboard-box i{
+        font-size: 40px;margin-right: 15px;
+    }
+    #ccgclient-portal .dashboard-box font{
+        line-height: 40px;font-size: 20px;
+    }
+    #ccgclient-portal .dashboard-video iframe{
+        min-height: 420px;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {    
+
+    #ccgclient-portal #ccp-sidebar{
+        z-index: 1;
+        display: none;
+        position: absolute;
+        height: auto;
+        box-shadow: 0px 8px 20px 5px rgba(4, 4, 4, 0.16);
+        margin: 0px 15px;    
+    }
+
+    #main{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    #portal-cotenier .page-body {
+        padding: 10px;
+    }
+
+    #portal-cotenier .invoice-page{
+        padding: 0px;
+    }
+
+    /*Dashboard*/
+    #ccgclient-portal .dashboard-half,
+    #ccgclient-portal .dashboard-half .dh-content{
+        height: auto;
+    }
+    #ccgclient-portal .dashboard-half.video-sec iframe{        
+        min-height: 300px;
+    }
+    #ccgclient-portal .dashboard-video iframe{
+        min-height: 300px;
+    }
+
+    #ccgclient-portal .dashboard-half.ifem-sec.col12{
+        height: auto;
+    }
+    #ccgclient-portal .dashboard-half.ifem-sec.col12 .dh-content{
+        height: auto;
+    }
+    #ccgclient-portal .dashboard-half.ifem-sec.col12 .dh-content iframe{
+        height: 300px;
+    }
+
+    #ccgclient-portal .dashboard-half.col12{
+        height: auto;
+    }
+    #ccgclient-portal .dashboard-half.col12 .dh-content{
+        height: auto;
+    }
+    #ccgclient-portal .dashboard-half.col12 .dh-content iframe{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #ccgclient-portal .dashboard-half.video-sec iframe{  
+        min-height: 200px;
+    }
+    #ccgclient-portal .dashboard-video iframe{
+        min-height: 220px;
+    }    
+    #ccgclient-portal .dashboard-half.ifem-sec.col12 .dh-content iframe{
+        height: 200px;
+    }  
+    #ccgclient-portal .dashboard-half.col12 .dh-content iframe{
+        height: 200px;
+    }
+    #portal-cotenier .documents-page .file-name{
+        width: calc(100% - 75px);
+    }
+    #portal-cotenier .documents-page .file-size{float: left;}
+}
+
+.modal-body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#ccgclientportal-content .iconisImg {
+    width: 30px;
+    display: inline-flex;
+}
+
+
+    @media only screen and (max-width: 999px) and (min-width: 500px) {
+       
+        #ccgclient-portal .bodyContent {
+            width: calc(95%) !important;
+            border-radius:10px  !important;
+            margin: 0px 20px;
+        }
+
+    }
+
+
+        @media only screen and (max-width: 499px){
+       
+        #ccgclient-portal .bodyContent {
+            width: calc(90%) !important;
+            border-radius:10px  !important;
+            margin: 0px 20px;
+        }
+
+    }

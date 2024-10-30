@@ -1,0 +1,126 @@
+
+
+/*User Panel*/
+#ccgclient-portal{
+    min-height: 650px;
+    margin-bottom: 35px;
+}
+#ccgclient-portal #portal-cotenier {
+    float: left;
+    /*width: calc(100% - 250px);*/
+    width: 100%;
+}
+
+
+/*Left Bar*/
+
+#ccgclient-portal #ccp-sidebar {
+    width: 220px;
+    /* background: rgb(47, 85, 143); */
+    float: left;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    margin: 0px 0px;
+    padding-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 0px;
+}
+#ccgclient-portal #ccp-nav-accordion{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+#ccgclient-portal #ccp-nav-accordion li{    
+    margin: 0px ;
+    padding: 0px ;
+    font-size: 14px;
+}
+#ccgclient-portal #ccp-nav-accordion li a{
+    display: block;
+    padding: 12px 15px;
+    /*border-bottom: solid 1px rgb(204, 204, 204);*/
+    text-decoration: none;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+}
+#ccgclient-portal #ccp-nav-accordion li:first-child a{   
+    border-top: none;border-radius: 5px 5px 0 0;
+} 
+#ccgclient-portal #ccp-nav-accordion li:last-child a{    
+    border-bottom: none;border-radius: 0 0 5px 5px;
+}
+#ccgclient-portal #ccp-nav-accordion li.logout a{
+    border-bottom: none;
+    border-radius: 0px 0px 5px 5px;
+}
+#ccgclient-portal #ccp-nav-accordion li a i{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+#ccgclient-portal #ccp-nav-accordion li a:focus,
+#ccgclient-portal #ccp-nav-accordion li a:active,
+#ccgclient-portal #ccp-nav-accordion li a:hover{
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 0px;
+    padding-left: 55px;
+}
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:last-child{
+    border-bottom: none;
+}
+#ccgclient-portal #ccp-nav-accordion li.active-menu .hide-dropdown .billing-dropdown-menu{
+    display: block !important;
+}
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:focus,
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:active,
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:hover{
+    text-decoration: none;
+    box-shadow: none;
+}
+#ccgclient-portal #ccp-nav-accordion li.dashboard a{
+    /*border-top: solid 1px #ccc;*/
+    /*margin-top: 15px;*/
+}
+
+
+/*Top Bar*/
+#ccgclient-portal .bodyContent {
+    width: calc(100% - 220px);
+    border-radius: 0px 10px 10px 0px;
+}
+#ccgclient-portal .ccp-top-bar {
+    background-image: unset !important;
+    background-color: #ffffff00 !important;
+    float: right;
+    width: 100%;
+}
+
+#ccgclient-portal #ccp-nav-accordion li a, #ccgclient-portal #ccp-nav-accordion li a:focus, #ccgclient-portal #ccp-nav-accordion li a:active, #ccgclient-portal #ccp-nav-accordion li a:hover {
+    margin-left: 20px;
+    border-radius: 8px 0px 0px 8px;
+}
+#ccgclient-portal #ccp-nav-accordion li.active-menu a {
+    border-bottom: none !important;
+    border-radius: 10px 0px 0px 10px;
+}
+@media only screen and (max-width: 768px) {
+    #ccgclient-portal .ccp-top-bar {
+        width: calc(100% - 30px);
+    }
+    #ccgclient-portal .ccg-mobile-menu {
+        display: block;
+    }
+    #ccgclient-portal #portal-cotenier{
+        width: 100%;
+    }
+}

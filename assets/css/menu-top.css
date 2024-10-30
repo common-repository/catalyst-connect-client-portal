@@ -1,0 +1,109 @@
+
+
+/*User Panel*/
+#ccgclient-portal{
+    min-height: 650px;
+    margin-bottom: 35px;
+}
+#ccgclient-portal #portal-cotenier {
+    float: left;
+    width: 100%;
+}
+
+
+/*Left Bar*/
+#ccgclient-portal #ccp-sidebar {
+    width: calc(100% - 0px);
+    height: auto;
+    background: #FFF;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    margin: 0px 0px 30px;
+}
+#ccgclient-portal #ccp-nav-accordion{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+#ccgclient-portal #ccp-nav-accordion li{    
+    margin: 0px ;
+    padding: 0px ;
+    float: left;
+}
+#ccgclient-portal ul li.account-manager{
+    display: none;
+}
+#ccgclient-portal #ccp-nav-accordion li.dashboard a{
+    border-radius: 5px 0px 0px 5px;
+}
+#ccgclient-portal #ccp-nav-accordion li a{
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.16);
+}
+#ccgclient-portal #ccp-nav-accordion li.logout a{
+    border-right: none;
+}
+
+#ccgclient-portal #ccp-nav-accordion li a svg{
+    display: none;
+}
+
+#ccgclient-portal #ccp-nav-accordion li:focus,
+#ccgclient-portal #ccp-nav-accordion li:active,
+#ccgclient-portal #ccp-nav-accordion li:hover{
+    color: #3ea1f5;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+#ccgclient-portal #ccp-nav-accordion .billing-dropdown-menu{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:focus,
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:active,
+#ccgclient-portal #ccp-nav-accordion li .billing-dropdown-menu a:hover{
+    text-decoration: none;
+    box-shadow: none;
+}
+
+/*Top Bar*/
+#ccgclient-portal .ccp-top-bar{
+    background: #2871d1;    
+    float: left;
+    width: calc(100% - 30px);
+    margin: 0px 15px 30px;    
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #ccgclient-portal #ccp-nav-accordion li {
+    float: none;
+  }
+  #ccgclient-portal #ccp-nav-accordion li a{
+    border-right: none;
+  }
+    #ccgclient-portal .ccg-mobile-menu {
+        display: block;
+    }
+    #ccgclient-portal #ccp-sidebar{
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+    #ccgclient-portal #ccp-nav-accordion li a{
+        padding: 20px 15px;
+    }
+}

@@ -1,0 +1,524 @@
+#ccgclientportal-content #portal-cotenier .mr-0{margin: 0px;}
+#ccgclientportal-content #portal-cotenier .pd-0{padding: 0px;}
+#ccgclientportal-content #portal-cotenier .pd-15{padding: 15px;}
+#ccgclientportal-content #portal-cotenier .pd-tb-15{padding-top: 15px; padding-bottom: 15px;}
+#ccgclientportal-content #portal-cotenier .pd-lr-15{padding-left: 15px; padding-right: 15px;}
+#ccgclientportal-content #portal-cotenier .pd-30{padding: 30px;}
+
+/*#ccgclientportal-content input[type="checkbox"],
+#ccgclientportal-content input[type="radio"]{
+  padding: 8px;
+}
+#ccgclientportal-content input[type=checkbox]:checked::before{
+  margin: -6px 0 0 -8px;
+}*/
+
+.ccgclient-portal input[type=text], 
+.ccgclient-portal input[type=email], 
+.ccgclient-portal input[type=url], 
+.ccgclient-portal select{
+    padding: 0px 15px;
+}
+
+.clr{clear: both;width: 100%}
+#ccgclientportal-content #portal-cotenier hr{margin: 25px 0px;}
+
+.layoutRow .layoutRowHeader input.sectiontitle{
+    max-width: calc(100% - 250px) !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+} 
+/*For tab drug and drop*/
+#ccgclientportal-content .client-portal_page_customization li.nav-item.gu-mirror > a {
+    cursor: all-scroll; 
+}
+#ccgclientportal-content .client-portal_page_customization li.nav-item {
+    list-style: none;
+}
+#ccgclientportal-content .client-portal_page_customization li.nav-item > a {
+    border: 1px solid rgb(0, 145, 216);
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.42857143;
+    text-decoration: none;
+}
+#ccgclientportal-content #portal-cotenier .box-shadow{
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px -2px rgb(228, 228, 228);
+}
+#ccgclientportal-content .col-md-6.left-section{margin: 0px 15px 30px -15px}
+#ccgclientportal-content .col-md-6.right-section{margin: 0px -15px 30px 15px;}
+
+
+#ccgclientportal-content .ccgclient-portal .page-heading,   
+#ccgclientportal-content #portal-cotenier .page-heading,   
+#ccgclientportal-content .portal-cotenier .page-heading{    
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    float: left;
+}
+#ccgclientportal-content .ccgclient-portal .add-new,
+#ccgclientportal-content #portal-cotenier .add-new{
+    margin-left: 15px;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    background: rgb(247, 247, 247);
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: rgb(0, 115, 170);
+    cursor: pointer;
+}
+#ccgclientportal-content #portal-cotenier .add-new:hover {
+    border-color: rgb(0, 142, 194);
+    background: rgb(0, 160, 210);
+    color: rgb(255, 255, 255);
+}
+
+/*Admin */
+#ccgclientportal-content #zohocrmapisettings {
+    margin-right: 10px;
+}
+#ccgclientportal-content #zohocrmapisettings #crmapiinformation .detailed{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 320px;
+    overflow: auto;
+    background: rgb(255, 255, 255);
+    max-width: 980px;
+}
+#ccgclientportal-content #zohocrmapisettings #booksapiinformation .detailed{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 320px;
+    overflow: auto;
+    background: rgb(255, 255, 255);
+    max-width: 980px;
+}
+#ccgclientportal-content #zohocrmapisettings #synccrmdata .detailed{
+    padding: 25px;
+    border: solid 1px rgb(204, 204, 204);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    margin: 15px auto;
+    max-width: 980px;
+}
+#ccgclientportal-content #zohocrmapisettings #Settings .detailed{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 320px;
+    overflow: auto;
+    background: rgb(255, 255, 255);
+    max-width: 980px;
+}
+#ccgclientportal-content .badge-info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(91, 192, 222) !important;
+}
+
+
+#ccgclientportal-content .ccgclient-portal select.form-control{
+    height: 34px;
+}
+#ccgclientportal-content .ccgclient-portal .form-control{
+    border-radius: 3px;
+    box-shadow: none;
+    margin-left: 0px;
+}
+#ccgclientportal-content .ccgclient-portal .control-label{
+    cursor: default;
+    margin-top: 5px;
+}
+#ccgclientportal-content .ccgclient-portal {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+#ccgclientportal-content .ccgclient-portal #portal-cotenier {
+    margin-top: 15px;    
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+#ccgclientportal-content .ccgclient-portal #portal-cotenier .tab-content .tab-pane{
+    padding: 30px 15px;
+}
+
+
+
+
+/*All Users*/
+#ccgclientportal-content .ccgclient-portal #portal-cotenier i.showpass,
+#ccgclientportal-content .ccgclient-portal #portal-cotenier i.hidepass{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#ccgclientportal-content .ccgclient-portal #portal-cotenier .contacts-page{
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    min-width: 320px;
+    overflow: auto;
+    background: rgb(255, 255, 255);
+}
+#ccgclientportal-content .ccgclient-portal #portal-cotenier .contacts-page .contacts-list {
+    margin: 0px;
+    min-width: 650px;
+}
+#ccgclientportal-content .ccgclient-portal #portal-cotenier .contacts-list td{
+    padding: 15px;
+}
+#ccgclientportal-content .ccgclient-portal #portal-cotenier .contacts-list th{
+    font-size: 15px;
+    padding: 10px 15px 10px;
+    color: rgb(0, 145, 216);
+}
+
+
+/*Settings*/
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .linkCon{
+    margin-bottom: 8px;
+}
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .quickLinkinput{
+    width: calc(34% - 31px);
+    float: left;
+    margin-right: 8px;
+}
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .linkCon #addQ_Link,
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .linkCon .removeQ_Link{
+    margin-left: 6px;
+}
+
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .sImageCon .image_url{
+    width: calc(100% - 105px);
+    float: left;
+}
+#ccgclientportal-content .ccgclient-portal.admin-settings #portal-cotenier .sImageCon .upload-btn{
+    height: 33px;
+}
+
+.client-portal_page_settings .dropdown-menu {
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.client-portal_page_settings .colorpicker.colorpicker-hidden {
+    display: none;
+}
+.client-portal_page_settings .colorpicker.colorpicker-visible {
+    display: block;
+}
+.client-portal_page_settings .colorpicker.colorpicker-with-alpha {
+    min-width: 140px;
+}
+
+
+
+/*Customization*/
+#ccgclientportal-content #portal-cotenier #crm_modules .crm-module-list input[type=checkbox]{
+    margin-top: 0px;
+}
+#ccgclientportal-content #portal-cotenier #crm_modules form .form-group .crm-module-list label.switch.control-label{
+    float: right;
+    min-width: 48px;
+    max-width: 48px;
+}
+#ccgclientportal-content #portal-cotenier #crm_modules .crm-module-list{
+    padding: 10px 15px;
+    border: solid 1px #696565;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px -2px rgb(228, 228, 228);
+}
+
+.nav-item{list-style: none;}
+.nav-item >a {
+    border: 1px solid rgb(0, 145, 216);
+    padding: 10px 20px;    
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+}
+.nav-item.active>a {
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 145, 216);
+    border: 1px solid rgb(0, 145, 216);
+    pointer-events: none;
+}
+
+#tableColumn .removeColumn{
+    float: right;
+}
+
+.movesection{
+    margin-top: 2px;
+    padding: 0px;
+    float: left;
+}
+.movesection,
+.movecolumn{
+    cursor: grabbing;
+}
+.addLayColumn,
+.addLayAddSrcColumn,
+.addRowSubform,
+.addLayColumnSubform,
+.addRow{
+    color: rgb(0, 145, 216);
+    padding: 4px 6px;
+}
+.layoutRowHeader{
+    background-color: rgb(81, 174, 254);
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.layoutRowHeader .sectiontitle{
+    max-width: 350px;
+    height: 26px;
+}
+.layoutRowHeader input,
+.layoutRowHeader button{
+    float: left;
+    margin-right: 8px;
+}
+.row.layoutRow{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin: 35px 0px 0px;
+    box-shadow: 0px 0px 6px -2px rgb(181, 181, 181);
+    padding-bottom: 20px;
+    min-height: 153px;
+}
+
+.row.layoutRow .removeRow{
+    float: right;
+    margin-right: 0px;
+    padding: 4px 6px;
+    background: #fff !important;
+    color: #004887;
+    border: solid 2px white !important;
+    border-radius: 10px;
+}
+
+.layoutColumnContainer{  
+}
+.layoutColumn{
+    padding: 10px;
+    margin: 15px 1% !important;
+    border-radius: 2px !important;
+    background: rgb(206, 232, 254) !important;
+}
+
+.layoutColumn.col-md-12{
+    width: calc(99% - 26px) !important;
+    margin: 20px 20px 0px !important;
+}
+.layoutColumn.col-md-6{
+    width: calc(50% - 40px)!important;
+    margin: 20px 20px 0px !important;
+}
+.layoutColumn .makeCol12 i{margin-left: -1px;}
+.layoutColumn .makeCol6 i{margin-left: 3px;}
+.layoutColumn .makeCol12,
+.layoutColumn .makeCol6,
+.layoutColumn .movecolumn{
+    float: left !important;
+    margin-right: 4px !important;
+    padding: 0px !important;
+    cursor: pointer;
+}
+.layoutSfTbl{
+    float: left;
+    margin: 15px 0px 0px 20px;
+    border: solid 1px rgb(239, 239, 239);
+    padding: 9px;
+    border-radius: 10px;
+    background: rgb(206, 232, 254);
+    width: calc(25% - 25px);
+}
+.layoutSfTbl .removeSfColumn,
+.layoutColumn .removeLColumn{
+}
+.layoutColumn .slctSubfromLayout select.form-control{
+}
+.subform-field .layoutSfTbl select{
+    width: calc(100% - 40px) !important;
+    float: left;
+    height: 34px !important;
+}
+.layoutSfTbl button.remove{
+    float: right;
+    background: #fff !important;
+    border: solid 2px #fff;
+    margin-top: 5px;
+
+}
+.layoutColumn select.form-control{
+    width: calc(100% - 280px) !important;
+    float: left !important;
+    margin-right: 5px !important;
+    height: 34px !important;
+    margin-left: 10px;
+}
+.layoutColumn button.remove{
+    float: right;
+     background: #fff !important;
+    border: solid 2px #fff;
+    margin-top: 5px;
+
+}
+.layoutRowHeader .removeRow:hover,
+.layoutSfTbl .removeSfColumn:hover,
+.layoutColumn .removeLColumn:hover{
+    background: #fff !important;
+    color: #004887;
+    border: solid 2px white !important;
+    border-radius: 10px;
+}
+.fieldAcp .switch .fas{
+    color: rgb(169, 169, 169);
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    font-size: 22px;
+}
+.fieldAcp .switch span.active .fas{
+    color: rgb(255, 255, 255);
+}
+
+#portal-cotenier #crm_modules .nav-tabs>li>a {
+    border: 1px solid #0091d8;
+    padding: 10px 20px;
+}
+#portal-cotenier #crm_modules .nav-tabs>li>a {
+    margin-right: 8px;
+}
+.pointer-none{
+    pointer-events: none;
+}
+
+
+/*Instruction*/
+#portal-cotenier h4.instruction_title{
+    padding: 12px 15px;
+    color: rgb(0, 145, 216);
+    margin-top: 0px;
+    font-size: 22px;
+}
+.instruction-content h4{
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.instruction-content .ins_scope_input{
+    width: calc(100% - 40px);
+}
+.instruction-content .far.fa-copy{
+    padding: 6px 8px;
+    border: solid 1px rgb(204, 204, 204);
+    cursor: pointer;
+    color: rgb(0, 145, 216);
+}
+
+
+ #ccgclientportal-content .addLayAddSrcColumn,
+ #ccgclientportal-content .addLayColumn,
+ #ccgclientportal-content .addLayColumnSubform{
+  margin-top: 4px;
+}
+
+#ccgclientportal-content .removeRow{
+  margin-top: 4px;
+}
+
+
+
+.nav-link {
+  font-weight: 600 !important;
+}
+
+.incomplete{
+    background: rgb(255, 224, 224);
+    color: rgb(255, 130, 131);
+}
+
+.invalid{
+    background: rgb(247, 247, 247);
+    color: #B2B2B2;
+}
+
+#ccgclientportal-content .custom-checkbox{
+    padding: 8px 15px !important;
+    border: solid 1px #696565;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px -2px rgb(228, 228, 228);
+}
+
+#ccgclientportal-content .datatable tr.odd{
+    background: rgb(245, 251, 255);
+}
+#ccgclientportal-content .datatable tr.even{
+    background: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 1440px) {
+    #portal-cotenier #crm_modules .nav-tabs>li>a {
+        margin-right: 1px;
+    }
+    #portal-cotenier #crm_modules .nav-tabs>li>a {
+        margin-right: 1px;
+        padding: 10px 10px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .layoutColumn.col-md-6 {
+        width: 100% !important;
+        margin: 15px 0px;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {   
+
+    #ccgclientportal-content .col-md-6.left-section{margin: 0px -15px 30px -15px;}
+    #ccgclientportal-content .col-md-6.right-section{margin: 0px -15px 30px -15px;}
+
+}

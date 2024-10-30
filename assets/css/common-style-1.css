@@ -1,0 +1,899 @@
+.fl-r{float: right;}
+.fl-l{float: left;}
+.click-dis{pointer-events: none;cursor: default;}
+a.back-link{display: none;}
+
+#ccgclientportal-content a{text-decoration: none;} 
+#ccgclientportal-content #portal-cotenier .btn.btn-primary{
+  outline: none;
+}
+
+#ccgclientportal-content select,
+#ccgclientportal-content input[type="search"],
+#ccgclientportal-content input[type="text"],
+#ccgclientportal-content input[type="color"],
+#ccgclientportal-content input[type="email"]{
+  -webkit-appearance: none;
+}
+
+#ccgclientportal-content input[type=button]{cursor: pointer;}
+
+#ccgclientportal-content input, 
+#ccgclientportal-content select, 
+#ccgclientportal-content textarea {
+    max-width: 100%;
+}
+
+#ccgclientportal-content .select2-container{width: 100% !important;}
+#ccgclientportal-content .select2-container .select2-selection--single{height: 35px;}
+#ccgclientportal-content .select2-container--default .select2-selection--single .select2-selection__rendered{padding: 4px 12px;line-height: 25px;}
+#ccgclientportal-content .select2-container--default .select2-selection--single .select2-selection__arrow{top: 4px; right: 4px;height: 80%;}
+.ccg-nav-tabs {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.ccgclientportal-content ol.ccg-nav-tabs>li,
+.ccgclientportal-content ul.ccg-nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    position: relative;
+    display: block;
+}
+.ccgclientportal-content .ccg-nav-tabs>li.active>a, 
+.ccgclientportal-content .ccg-nav-tabs>li.active>a:focus, 
+.ccgclientportal-content .ccg-nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    border-bottom-color: transparent;
+    pointer-events: none;
+}
+.ccgclientportal-content .ccg-nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.ccgclientportal-content .ccg-nav-tabs>li>a:focus, 
+.ccgclientportal-content .ccg-nav-tabs>li>a:hover {
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(204, 204, 204);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch .slider.round {
+  border-radius: 34px;
+}
+
+.switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+
+/*Instruction css start*/
+.cp_title{
+  border-bottom: 1px solid rgb(238, 238, 238);
+  padding: 10px 0px;
+}
+.cp_bold{
+  font-weight: 700;
+}
+.ins_nb{
+  color: #d87a7a;
+  font-weight: 600;
+}
+.ins_scope{
+  padding: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  overflow: auto;
+}
+.cp_ins_img_main{
+  margin: 35px 0px;
+  text-align: center;
+}
+.cp_ins_img_main .cp_ins_img {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 7px 7px 10px #e2e2e2;
+  width:100%;
+  max-width:500px;
+}
+
+.cp_ins_img_main .cp_ins_img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.cp_ins_img_main .cp_ins_img_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.cp_ins_img_main .cp_ins_img_modal .ins_modal_content{
+  margin: auto;
+  display: block;
+  width: 65%;
+  /*max-width: 700px;*/
+}
+
+/* Caption of Modal Image */
+.cp_ins_img_main .cp_ins_img_modal .ins_caption {
+  margin: auto;
+  display: block;
+  width: 65%;
+  /*max-width: 700px;*/
+  text-align: center;
+  color: rgb(204, 204, 204);
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.cp_ins_img_main .cp_ins_img_modal .ins_modal_content, .cp_ins_img_main .cp_ins_img_modal .ins_caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.cp_ins_img_main .cp_ins_img_modal .ins_close {
+  position: absolute;
+  /*top: 15px;*/
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cp_ins_img_main .cp_ins_img_modal .ins_close:hover,
+.cp_ins_img_main .cp_ins_img_modal .ins_close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.ccg_instruction_page .tabs-left{
+  display: flex;
+}
+.ccg_instruction_page .tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.ccg_instruction_page .tab-content > .tab-pane{
+  padding: 0px !important;
+}
+.ccg_instruction_page .tab-content{
+      width: 80%;
+}
+.ccg_instruction_page .tab-content > .tab-pane,
+.ccg_instruction_page .pill-content > .pill-pane {
+  display: none;
+}
+
+.ccg_instruction_page .tab-content > .active,
+.ccg_instruction_page .pill-content > .active {
+  display: block;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 5%;
+  border-right: 1px solid rgb(221, 221, 221);
+  min-width: 200px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a:hover,
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a:focus {
+  border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(238, 238, 238) rgb(238, 238, 238);
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a,
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a:hover,
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a:focus {
+  border-color: rgb(221, 221, 221) transparent rgb(221, 221, 221) rgb(221, 221, 221);
+  *border-right-color: rgb(255, 255, 255);
+}
+
+/*Instruction css end*/
+
+
+
+
+
+
+
+
+
+/*My CSS Created For Desig nChange*/
+
+.switch-appearence .slider-appearence {
+  
+    background-color: #FF7D7E;
+
+}
+
+input:checked + .slider-appearence {
+    background-color: #7BDA7C;
+}
+
+.default-switch{
+    border: 1px solid #555;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    width: -moz-fit-content;
+}
+
+.Setting-apprerance {
+  padding-right: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.NewInput{
+      -webkit-appearance: none;
+    width: 15%;
+    height: 30px;
+    padding: 0;
+    display: inline-flex;
+    border-radius: 8px !important;
+}
+
+.Newinput2{
+  width:85%;
+  float: right;
+  border: none !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+.colobox{
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 4px;
+  padding-top: 5px; 
+}
+
+.NewInputcol6{
+      -webkit-appearance: none;
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    display: inline-flex;
+    border-radius: 8px !important;
+}
+
+.Newinput2col6{
+  width:70%;
+  float: right;
+  border: none !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+.topPadding{
+  padding-top: 15px;
+}
+
+.newselect{
+    border-radius: 10px!important;
+    height: 40px!important;
+}
+
+
+.NewInput12{
+      -webkit-appearance: none;
+    width: 30%;
+    height: 30px;
+    padding: 0;
+    display: inline-flex;
+    border-radius: 8px !important;
+
+}
+
+.Newinput212{
+  width:70%;
+  float: right;
+  border: none !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+
+.portal-setting-header{
+  /*max-width: 1024px;*/
+  /*max-width: max-content;*/
+  padding-top: 1px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.genralColoSetting{
+  padding-left: 8px;padding-bottom: 2px;border: 1px solid;padding-top: 5px;border-radius: 10px;
+}
+
+.checkbopxGeneral{
+    border: 1px solid #949393;
+    border-bottom-right-radius: 10px;
+    padding: 3px;
+    border-top-right-radius: 10px;
+    border-left: none;
+    margin-top: 5px;
+    padding-right: 10px;
+    
+}
+
+@media only screen and (min-width: 2000px) {
+  
+  .checkbopxGeneral{
+      width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  
+  .checkbopxGeneral{
+      width: 30.5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  
+  .checkbopxGeneral{
+      width: 29.5%;
+
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 465px) {
+  .checkbopxGeneral {
+      width: 72.5%;
+      display: inline-flex;
+      margin-left: -5px;
+      padding-left: 65%;
+  }
+
+
+}
+
+@media only screen and (max-width: 464px) {
+  .checkbopxGeneral {
+      width: 49.5%;
+      display: inline-flex;
+      margin-left: -5px;
+      padding-left: 32%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1445px) {
+  
+  .takeheadingDomain{
+      /*width: 40%;*/
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  
+  .takeheadingDomain{
+     /*width: 74%;*/
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  
+  .takeheadingDomain{
+      /*width: 100%;*/
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .takeheadingDomain {
+      /*width: 100%;*/
+      
+  }
+
+  .buttonDomain{
+    padding: 15px;
+    padding-left: 30px;
+  }
+
+}
+
+.labelGeneral{
+    border: 1px solid #949393;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    border-right: none;
+    padding-left: 19px;
+    margin-left: 15px;
+}
+
+
+
+/*Instructions new design */
+
+.fontheading{
+  font-size: 16px !important;
+  display: inline-flex;
+  margin-top: 25px !important;
+}
+
+.scrollscops{
+    overflow: scroll;
+    width: 50%;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 12px;
+    margin-left: 15px;
+    margin-top: -5px;
+    display: inline-flex;
+}
+
+.copyScops {
+    background: #07355d !important;
+    padding: 3px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 10px !important;
+    margin-left: 6px;
+
+}
+
+.fourthTextNB{
+      margin-top: 0px;
+    margin-left: 55%;
+    color: #bf3030;
+    border: none;
+}
+
+.copyshortcode {
+      position: absolute;
+    margin-left: -70px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+
+.headerButton {
+    margin-left: 0px !important;
+    padding: 12px 40px 12px 40px !important;
+    border-radius: 12px !important;
+    border: 1px solid #06569a !important;
+        margin-right: 15px;
+}
+
+.headerButton:hover {
+   background: #12569c  !important;
+   color:#fff !important;
+}
+
+.activeUser{
+   background: #12569c  !important;
+   color:#fff !important;
+}
+
+.fortrun{
+      position: absolute;
+    margin-left: 12px;
+    margin-top: 10px;
+    color: #b1aaaa;
+}
+
+.ArrowTable {
+      border: 1px solid #337ab7e0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#DataTables_Table_0_previous{
+  padding-right: 2px
+}
+#DataTables_Table_0_next{
+padding-left: 2px
+}
+
+/*.paginate_button{
+      background: #337ab7;
+    color: #fff !important;
+}*/
+
+
+.btnActiveDeactive {
+      background: #fff0;
+    border: none;
+    font-weight: 700;
+    color: #337ab7;
+    padding-top: 5px;
+}
+
+.newSubmitBtn{
+  float: right;
+  padding: 6px 55px 6px 55px !important;
+  background: rgb(0, 72, 135) !important;
+  border-radius: 8px !important;
+}
+
+.newSubmitBtnDesign{
+  float: right;
+  background: rgb(0, 72, 135) !important;
+  border-radius: 8px !important;
+}
+
+.newdownloadBtn{
+   float: left;
+  padding: 6px 20px 6px 20px !important;
+  background: rgb(0, 72, 135) !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+}
+#ccgclientportal-content .btn-primary{
+  background: rgb(0, 72, 135);  
+}
+
+#portal-cotenier{
+  border-radius: 8px;
+}
+
+.choosefileButton {
+      position: absolute;
+    margin-left: -110px !important;
+    margin-top: 6px!important;
+    height: 1px!important;
+    border-radius: 8px!important;
+    background: rgb(0, 72, 135)!important;
+    color: #fff!important;
+    padding: 0px 16px 0px 16px!important;
+}
+
+
+@-moz-document url-prefix() {
+
+    #DataTables_Table_0_length select {
+      padding-top:5px !important;
+    }
+    
+    #DataTables_Table_1_length select {
+      padding-top:5px !important;
+    }
+}
+
+.layoutColumn.col-md-3,
+.layoutColumn.col-md-4,
+.layoutColumn.col-md-6,
+.layoutColumn.col-md-8,
+.layoutColumn.col-md-9,
+.layoutColumn.col-md-12{
+    border: 1px solid rgb(206, 232, 254);
+    background-color: rgb(206, 232, 254) !important;
+    border-radius: 10px !important;
+    padding: 8px;
+    padding-right: 20px;
+}
+.layoutColumn.col-md-6 {
+    width: 48% !important;
+    margin: 14px 1% !important;
+}
+.layoutColumn.col-md-12 {
+    margin: 14px 1% !important;
+}
+.layoutColumn.col-md-8 {
+    width: 64.66666666% !important;
+    margin: 20px 1% 0px !important;
+}
+.layoutColumn.col-md-4 {
+    width: 31.33333333% !important;
+    margin: 20px 1% 0px !important;
+}
+.layoutColumn.col-md-9 {
+    width: 73% !important;
+    margin: 20px 1% 0px !important;
+}
+.layoutColumn.col-md-3 {
+    width: 23% !important;
+    margin: 20px 1% 0px !important;
+}
+
+.moveBar{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-right: 0px;
+        padding-bottom: 4px;
+}
+
+.barsImg{
+  position: absolute;margin-left: -20px;margin-top: -40px;
+}
+
+.extraBarAdd {
+      height: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    margin: -15px;
+}
+
+.headingoutofBox {
+  padding-left: 5px !important;
+    margin-left: -20px !important;
+    margin-right: -28px !important;
+    padding-top: 30px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px !important;
+}
+
+
+.getnewmodule{
+  padding: 19px 15px !important;
+}
+
+.nav-tabs{
+    box-shadow: 0px 5px 10px -6px rgba(153, 153, 153, 0.7607843137254902) !important;
+    padding-left: 10px;
+    margin-top: 4px !important;
+}
+
+.ccgclient-portal input[type=text], 
+.ccgclient-portal input[type=email], 
+.ccgclient-portal input[type=url], 
+.ccgclient-portal select{
+    height: 40px !important;    
+    border-radius: 8px !important;
+}
+
+#ccgclientportal-content .nav>li>a:focus, #ccgclientportal-content .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 72, 135);
+    font-weight: 600;
+    box-shadow: none;
+}
+
+#ccgclientportal-content input.readonly, 
+#ccgclientportal-content input[readonly], 
+#ccgclientportal-content textarea.readonly, 
+#ccgclientportal-content textarea[readonly]{
+  background: #FFFFFF;
+}
+
+/* tooltip css */
+
+.tooltip{
+    position:absolute;
+    z-index:1070;
+    display:block;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:normal;
+    font-weight:400;
+    line-height:1.42857143;
+    line-break:auto;
+    text-align:left;
+    text-align:start;
+    text-decoration:none;
+    text-shadow:none;
+    text-transform:none;
+    letter-spacing:normal;
+    word-break:normal;
+    word-spacing:normal;
+    word-wrap:normal;
+    white-space:normal;
+    font-size:12px;
+    filter:alpha(opacity=0);
+    opacity:0
+}
+.tooltip.in{
+    filter:alpha(opacity=90);
+    opacity:.9
+}
+.tooltip.top{
+    padding:5px 0;
+    margin-top:-3px
+}
+.tooltip.right{
+    padding:0 5px;
+    margin-left:3px
+}
+.tooltip.bottom{
+    padding:5px 0;
+    margin-top:3px
+}
+.tooltip.left{
+    padding:0 5px;
+    margin-left:-3px
+}
+.tooltip.top .tooltip-arrow{
+    bottom:0;
+    left:50%;
+    margin-left:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000
+}
+.tooltip.top-left .tooltip-arrow{
+    right:5px;
+    bottom:0;
+    margin-bottom:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000
+}
+.tooltip.top-right .tooltip-arrow{
+    bottom:0;
+    left:5px;
+    margin-bottom:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000
+}
+.tooltip.right .tooltip-arrow{
+    top:50%;
+    left:0;
+    margin-top:-5px;
+    border-width:5px 5px 5px 0;
+    border-right-color:#000
+}
+.tooltip.left .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-width:5px 0 5px 5px;
+    border-left-color:#000
+}
+.tooltip.bottom .tooltip-arrow{
+    top:0;
+    left:50%;
+    margin-left:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000
+}
+.tooltip.bottom-left .tooltip-arrow{
+    top:0;
+    right:5px;
+    margin-top:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000
+}
+.tooltip.bottom-right .tooltip-arrow{
+    top:0;
+    left:5px;
+    margin-top:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000
+}
+.tooltip-inner{
+    max-width:200px;
+    padding:3px 8px;
+    color:#fff;
+    text-align:center;
+    background-color:#000;
+    border-radius:4px
+}
+.tooltip-arrow{
+    position:absolute;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid
+}
+/* tooltip css end */

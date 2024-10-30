@@ -1,0 +1,327 @@
+.fl-r{float: right;}
+.fl-l{float: left;}
+.click-dis{pointer-events: none;cursor: default;}
+
+#ccgclientportal-content a{text-decoration: none;} 
+
+#ccgclientportal-content select,
+#ccgclientportal-content input[type="search"],
+#ccgclientportal-content input[type="text"],
+#ccgclientportal-content input[type="email"]{
+  /*padding: 8px 15px;*/
+}
+
+#ccgclientportal-content input[type=button]{cursor: pointer;}
+
+#ccgclientportal-content input, 
+#ccgclientportal-content select, 
+#ccgclientportal-content textarea {
+    max-width: 100%;
+}
+
+#ccgclientportal-content .select2-container{width: 100% !important;}
+#ccgclientportal-content .select2-container .select2-selection--single{height: 35px;}
+#ccgclientportal-content .select2-container--default .select2-selection--single .select2-selection__rendered{padding: 4px 12px;line-height: 25px;}
+#ccgclientportal-content .select2-container--default .select2-selection--single .select2-selection__arrow{top: 4px; right: 4px;height: 80%;}
+.ccg-nav-tabs {
+    border-bottom: 1px solid #ddd;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.ccgclientportal-content ol.ccg-nav-tabs>li,
+.ccgclientportal-content ul.ccg-nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    position: relative;
+    display: block;
+}
+.ccgclientportal-content .ccg-nav-tabs>li.active>a, 
+.ccgclientportal-content .ccg-nav-tabs>li.active>a:focus, 
+.ccgclientportal-content .ccg-nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    pointer-events: none;
+}
+.ccgclientportal-content .ccg-nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.ccgclientportal-content .ccg-nav-tabs>li>a:focus, 
+.ccgclientportal-content .ccg-nav-tabs>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch .slider.round {
+  border-radius: 34px;
+}
+
+.switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+
+/*Instruction css start*/
+.cp_title{
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+}
+.cp_bold{
+  font-weight: 700;
+}
+.ins_nb{
+  color: #d87a7a;
+  font-weight: 600;
+}
+.ins_scope{
+  padding: 10px;
+  border: 1px solid #eee;
+  overflow: auto;
+}
+.cp_ins_img_main{
+  margin: 20px;
+}
+.cp_ins_img_main .cp_ins_img {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 7px 7px 10px #e2e2e2;
+  width:100%;
+  max-width:500px;
+}
+
+.cp_ins_img_main .cp_ins_img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.cp_ins_img_main .cp_ins_img_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.cp_ins_img_main .cp_ins_img_modal .ins_modal_content{
+  margin: auto;
+  display: block;
+  width: 65%;
+  /*max-width: 700px;*/
+}
+
+/* Caption of Modal Image */
+.cp_ins_img_main .cp_ins_img_modal .ins_caption {
+  margin: auto;
+  display: block;
+  width: 65%;
+  /*max-width: 700px;*/
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.cp_ins_img_main .cp_ins_img_modal .ins_modal_content, .cp_ins_img_main .cp_ins_img_modal .ins_caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.cp_ins_img_main .cp_ins_img_modal .ins_close {
+  position: absolute;
+  /*top: 15px;*/
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cp_ins_img_main .cp_ins_img_modal .ins_close:hover,
+.cp_ins_img_main .cp_ins_img_modal .ins_close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.ccg_instruction_page .tabs-left{
+  display: flex;
+}
+.ccg_instruction_page .tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.ccg_instruction_page .tab-content > .tab-pane{
+  padding: 0px !important;
+}
+.ccg_instruction_page .tab-content{
+      width: 80%;
+}
+.ccg_instruction_page .tab-content > .tab-pane,
+.ccg_instruction_page .pill-content > .pill-pane {
+  display: none;
+}
+
+.ccg_instruction_page .tab-content > .active,
+.ccg_instruction_page .pill-content > .active {
+  display: block;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 5%;
+  border-right: 1px solid #ddd;
+  min-width: 200px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a:hover,
+.ccg_instruction_page .tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a,
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a:hover,
+.ccg_instruction_page .tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+
+/*Instruction css end*/
+
+
+.headerButton {
+    margin-left: 0px !important;
+    padding: 12px 40px 12px 40px !important;
+    border-radius: 12px !important;
+    border: 1px solid #06569a !important;
+    margin-right: 15px;
+}
+
+.headerButton:hover {
+    background: #12569c !important;
+    color: #fff !important;
+}
+
+.activeUser {
+    background: #12569c !important;
+    color: #fff !important;
+}
+
+#portal-cotenierss {
+        margin-top: 15px;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+    }
